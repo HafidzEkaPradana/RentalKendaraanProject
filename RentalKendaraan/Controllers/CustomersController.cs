@@ -18,6 +18,8 @@ namespace RentalKendaraan.Controllers
     /// <summary>
     /// CustomerController
     /// </summary>
+    
+    ///Brief Desc
     public class CustomersController : Controller
     {
         private readonly RentKendaraanContext _context;
