@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace RentalKendaraan.Models
 {
+	/// <summary>
+	/// PaginatedListModels
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
 	public class PaginatedList<T> : List<T>
     {
 		public int PageIndex { get; private set; }

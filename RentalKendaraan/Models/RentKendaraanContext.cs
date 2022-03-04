@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace RentalKendaraan.Models
 {
+    /// <summary>
+    /// RentKendaraanContextModels
+    /// </summary>
     public partial class RentKendaraanContext : DbContext
     {
         public RentKendaraanContext()

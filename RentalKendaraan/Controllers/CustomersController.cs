@@ -1,4 +1,10 @@
-﻿using System;
+﻿/** \addtogroup Controller
+ *  @{
+ */
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,6 +15,9 @@ using RentalKendaraan.Models;
 
 namespace RentalKendaraan.Controllers
 {
+    /// <summary>
+    /// CustomerController
+    /// </summary>
     public class CustomersController : Controller
     {
         private readonly RentKendaraanContext _context;
@@ -210,3 +219,4 @@ namespace RentalKendaraan.Controllers
         }
     }
 }
+/** @}*/

@@ -8,7 +8,10 @@ using Microsoft.EntityFrameworkCore;
 using RentalKendaraan.Models;
 
 namespace RentalKendaraan.Controllers
-{
+{   
+    /// <summary>
+    /// GenderController
+    /// </summary>
     public class GendersController : Controller
     {
         private readonly RentKendaraanContext _context;

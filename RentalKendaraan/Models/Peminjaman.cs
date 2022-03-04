@@ -6,6 +6,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RentalKendaraan.Models
 {
+    /// <summary>
+    /// PeminjamanModels
+    /// </summary>
     public partial class Peminjaman
     {
         public Peminjaman()

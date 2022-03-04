@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace RentalKendaraan.Controllers
 {
+    /// <summary>
+    /// UploadController
+    /// </summary>
     public class UploadController : Controller
     {
         private readonly IFileProvider fileProvider;

@@ -6,6 +6,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RentalKendaraan.Models
 {
+
+    /// <summary>
+    /// PengembalianModels
+    /// </summary>
     public partial class Pengembalian
     {
         [Required(ErrorMessage = "ID Pengembalian tidak boleh kosong")]

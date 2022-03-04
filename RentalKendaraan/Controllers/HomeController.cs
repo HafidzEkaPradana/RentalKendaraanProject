@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace RentalKendaraan.Controllers
 {
+    /// <summary>
+    /// HomeController
+    /// </summary>
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

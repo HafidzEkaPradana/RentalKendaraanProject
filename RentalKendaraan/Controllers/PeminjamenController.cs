@@ -9,6 +9,9 @@ using RentalKendaraan.Models;
 
 namespace RentalKendaraan.Controllers
 {
+    /// <summary>
+    /// PeminjamanController
+    /// </summary>
     public class PeminjamenController : Controller
     {
         private readonly RentKendaraanContext _context;
